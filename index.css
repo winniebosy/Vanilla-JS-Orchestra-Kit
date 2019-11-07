@@ -28,9 +28,14 @@ h1{
     flex-flow:row wrap;
     justify-content:space-around;
     align-items:center; 
-    transition:0.5s;      
+    transition: all 0.08s;      
    
 }
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
 
 /* key classes */
 .key{
@@ -49,6 +54,8 @@ h1{
     background-color: #8c0659;
   
   }
+ 
+  
   /* keyboard letterz */
 kbd{
     font-size:3.7rem;
@@ -91,9 +98,14 @@ kbd{
         flex-flow:row wrap;
         justify-content:space-around;
         align-items:center; 
-        transition:0.5s;      
+        transition: all 0.08s;      
        
     }
+    .playing{
+        transform: scale(1.1);
+        border-color: #ffc600;
+        box-shadow: 0 0 0.5rem #ffc600;
+      }
     
     
     .key{
@@ -104,14 +116,11 @@ kbd{
         height:auto;
         text-align:center;
         align-content: space-around;
+        
        
     }
     
-    .key:hover{
-        cursor:pointer;
-        background-color: #8c0659;
-      
-      }
+    
     kbd{
         font-size:2.5rem;
         text-align:center;
